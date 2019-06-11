@@ -6,9 +6,9 @@ configurations. I don't need them. If you too, download this.
 
 # How
 You only need to import the [Bootstrap's development source](https://getbootstrap.com/docs/4.3/getting-started/download/#source-files) and copy the files to
-`\\\_sass\\Bootstrap`.
+`\_sass\Bootstrap`.
 
-Also, you need to update in `\\\_layouts\\default.html` the scripts to satisfy
+Also, you need to update in `\_layouts\default.html` the scripts to satisfy
 the js dependences.
 
 Yes, all manualy, yes, it need to be automate. Time to the time.
@@ -19,4 +19,4 @@ add some kind of automatization with bundle gems. Until that, just copy and past
 
 # There are a collection…
 Yes, 'cause post are the default collection in Jekyll, I add other collection
-as an example (named Tutoriales, sorry for my spanglish!). You
+as an example (named Tutoriales, sorry for my spanglish!).

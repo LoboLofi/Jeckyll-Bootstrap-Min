@@ -1,0 +1,14 @@
+---
+layout: default
+title: Tutoriales
+---
+<h1>Tutoriales</h1>
+
+<ul>
+  {% for tutorial in site.Tutoriales %}
+    <li>
+      <h2><a href="{{tutorial.url}}">{{ tutorial.Paso }}.- {{ tutorial.Titulo }}</a></h2>
+      <p>{{ tutorial.content | markdownify }}</p>
+    </li>
+  {% endfor %}
+</ul>

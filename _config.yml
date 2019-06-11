@@ -1,0 +1,23 @@
+# Site settings
+title: Minimal Doc with Bootstrap
+email: loboestepario91@gmail.com
+author: LoboLofi
+description:
+   An template in jekyll with Bootstrap that actually works.
+   There are several gems and npm proyects that promised the integration between
+   jekyll and Bootstrap, but all of them have some theme development with a lot
+   configurations. I don't need them. If you too, download this.
+url:
+
+collections:
+   Tutoriales:
+      output: true
+      permalink: /:collection/:name
+
+defaults:
+   -
+      scope:
+         path: ""
+         type: "Tutoriales"
+      values:
+         layout: "Tutorial"
