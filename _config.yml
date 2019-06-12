@@ -21,3 +21,4 @@ defaults:
          type: "Tutoriales"
       values:
          layout: "Tutorial"
+exclude: ['LICENCE','README.md']
